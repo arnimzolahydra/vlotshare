@@ -1,0 +1,12 @@
+{
+  "name": "voltshare",
+  "version": "1.0.0",
+  "description": "VoltShare prototype: EV charger sharing with a Node.js backend and a Gemma 4 assistant (via Ollama)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
